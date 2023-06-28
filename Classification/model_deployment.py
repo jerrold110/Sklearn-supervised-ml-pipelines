@@ -15,7 +15,9 @@ os.chdir(path)
 x = pd.read_csv('data/x_test_data.csv')
 y = pd.read_csv('data/y_test_data.csv')
 y_true = y['survived']
-model = joblib.load('model/classifier.joblib')
+
+with open ('model/classifier.joblib', 'rb') as f:
+    model = joblib.load(f)
 
 # predict data
 predictions = model.predict(x)
