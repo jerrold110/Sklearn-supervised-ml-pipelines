@@ -1,0 +1,10 @@
+OHC + PCA 
+https://scikit-learn.org/stable/auto_examples/compose/plot_compare_reduction.html
+
+Common pitfalls
+https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html
+
+Residual plots
+https://seaborn.pydata.org/generated/seaborn.residplot.html
+
+OLS reg, Ridge reg (L1), Lasso reg (L2), Elastic-Net reg (L1 L2)
